@@ -1,15 +1,16 @@
 {
   "name": "zongphp/mail",
   "description": "邮件组件内部集成了方便的邮件发送机制，使用非常简单",
-  "type": "project",
   "keywords": [
+    "zongphp",
     "邮件处理"
   ],
   "license": "MIT",
   "minimum-stability": "stable",
   "require": {
     "php": ">=5.4.0",
-    "zongphp/config": "~1.0"
+    "zongphp/config": "~2.0",
+    "phpmailer/phpmailer": "^5.2"
   },
   "autoload": {
     "files": [],
